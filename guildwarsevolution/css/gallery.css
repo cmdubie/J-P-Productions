@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* main elements
+============================================ */
+html {background: fixed left top url('../assets/images/gw-waterfall.jpg');}
+/* headings
+============================================ */
+
+/* links
+============================================ */
+#gallery:hover, #gallery:focus {text-decoration: none;} 
+
+/* navigation
+============================================ */
+.btt {clear: both;}
+
+/* articles - sections
+============================================ */
+
+/* images - tables - forms
+============================================ */
+figure {width: 235px; float: left; margin-bottom: 30px;}
+.wide {width: 299px;}
+figcaption {font-size: 10px;}
+img {border: 3px double #666; border-radius: 5px;}
+
+/* asides
+============================================ */
+
+/* footer
+============================================ */
+
+/* layout
+============================================ */

@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/* main elements
+============================================ */
+html {background: fixed left top url('../assets/images/gw2-wall.jpg');}
+/* headings
+============================================ */
+
+/* links
+============================================ */
+#gw2-evolution:hover, #gw2-evolution:focus {text-decoration: none;} 
+
+/* navigation
+============================================ */
+
+/* articles - sections
+============================================ */
+#pos {color: #6a6;}
+#indiff {color: #aa6;}
+#neg {color: #e55;}
+.opinion-p {clear: both; padding: 0 10px 10px; border: 1px solid #6a6; border-radius: 5px;}
+.opinion-i {clear: both; padding: 0 10px 10px; border: 1px solid #aa6; border-radius: 5px;}
+.opinion-n {clear: both; padding: 0 10px 10px; border: 1px solid #e55; border-radius: 5px;}
+
+/* images - tables - forms
+============================================ */
+
+/* asides
+============================================ */
+
+/* footer
+============================================ */
+
+/* layout
+============================================ */

@@ -1,0 +1,157 @@
+@charset "UTF-8";
+
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+#jpp-logo h1 {text-shadow: 2px 2px 2px #000, 3px 3px 0 #eab028;} 
+#jpp-logo h2, #main-nav h3, #related h3, #presents-section h3 {text-shadow: 1px 1px 1px #000, 2px 2px 0 #eab028;}
+
+/* links
+============================================ */
+#references p a {font-weight: 600;}
+#references p a:hover, #references p a:focus {text-decoration: underline;}
+
+/* navigation
+============================================ */
+
+/* articles - sections
+============================================ */
+
+/* footer
+============================================ */
+
+
+/* progressive enhancement
+============================================ */
+@media screen and (min-width: 100px)
+{
+
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+#presents-section h1 {font-size: 2.75em;}
+
+/* navigation
+============================================ */
+
+/* articles - sections
+============================================ */
+
+/* images - tables - forms
+============================================ */
+
+}
+
+@media screen and (min-width: 600px)
+{
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+#presents-section h1 {padding: 10px 0;}
+
+/* navigation
+============================================ */
+
+/* articles - sections
+============================================ */
+#presents-section h1, #main section, #references {border: 2px solid #181818; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
+#main section, #references {padding: 10px 60px;}
+
+/* images - tables - forms
+============================================ */
+
+/* asides
+============================================ */
+
+/* footer
+============================================ */
+
+}
+
+@media screen and (min-width: 744px)
+{
+/* main elements
+============================================ */
+
+}
+
+@media screen and (min-width: 800px)
+{
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+
+}
+
+@media screen and (min-width: 1000px)
+{
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+#presents-section h1 {font-size: 3.5em;}
+
+/* navigation
+============================================ */
+
+/* articles - sections
+============================================ */
+
+/* asides
+============================================ */
+
+/* images - tables - forms
+============================================ */
+
+}
+
+@media screen and (min-width: 1200px)
+{
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+
+/* articles - sections
+============================================ */
+.ref-col-div {width: 49%;}
+
+/* asides
+============================================ */
+
+}
+
+@media screen and (min-width: 1400px)
+{
+/* main elements
+============================================ */
+
+/* headings
+============================================ */
+
+/* articles - sections
+============================================ */
+.ref-col-div {display: block; width: 100%; float: none;}
+#references {padding: 5px;}
+
+/* images - tables - forms
+============================================ */
+.ref-img-div {padding-top: 10px;}
+}
+
+@media screen and (min-width: 1590px)
+{
+/* main elements
+============================================ */
+
+}

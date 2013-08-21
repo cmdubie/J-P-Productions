@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+/* main elements
+============================================ */
+html {background: fixed left top url('../assets/images/gw-castle.jpg');}
+/* headings
+============================================ */
+
+/* links
+============================================ */
+#about:hover, #about:focus {text-decoration: none;} 
+
+/* navigation
+============================================ */
+
+/* articles - sections
+============================================ */
+#changed {text-decoration: line-through;}
+.gw1 ul, .gw2 ul {padding: 0;}
+.gw1 ul ul, .gw2 ul ul {padding-left: 10px; font-size: 12px; list-style-type: circle;}
+.gw1 li, .gw2 li {padding: 10px;}
+.gw1 li li, .gw2 li li {margin-left: 25px; padding: 3px 5px;}
+
+/* images - tables - forms
+============================================ */
+
+/* asides
+============================================ */
+
+/* footer
+============================================ */
+
+/* layout
+============================================ */
