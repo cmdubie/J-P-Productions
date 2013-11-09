@@ -1,5 +1,0 @@
-@charset "UTF-8";
-
-aside, article, #jpp-logo, #contact-info, nav, #references, #home-button, footer .contact-div, footer .logo-div {display: none;}
-p#IE-disclaimer {display: block; font-size: 3em; text-align: center; margin: 50px;}
-footer {font-size: .6em; line-height: .6; text-align: center;}
