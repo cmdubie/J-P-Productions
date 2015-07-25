@@ -7,7 +7,7 @@
     var pausedImage = null;
 	
     function changeInterval() {
-        return Math.floor((Math.random() * (8000 - 4000) + 8000));
+        return Math.floor(Math.random() * (3000)) + 3000;
     }
     
 	function ImageObject(imageId, listId, imageLinkId, imageArray, titleArray, linkArray){
