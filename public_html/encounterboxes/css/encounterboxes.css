@@ -2,7 +2,7 @@ html {background-color: #777; background-image: url(../images/eb-Boxes.jpg); bac
 
 body { color: #f1f1f1;}
 
-.larger-text {font-size: 1.1em;}
+.larger-text, #main .genre-section {font-size: 1.1em;}
 
 #contact-info span.small-text {font-size: .675em; color: #c1c1c1;}
 
