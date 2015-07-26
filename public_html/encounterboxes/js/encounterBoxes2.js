@@ -20,10 +20,8 @@
 		this.links = linkArray;
         this.titles = titleArray;
 		this.opacity = 1;
-		
-		//buildGenreList(this.listId, this.titles);
-		
-		this.fadeIn = 	function() {				
+
+		this.fadeIn = 	function() {
             if (this.opacity < 1) {
                 this.opacity += OPACITY_CHANGE;
                 this.imageElement.style.opacity = this.opacity;
@@ -42,6 +40,7 @@
                 var nextTitle = this.titles.shift();
 				var nextLink = this.links.shift();
 				var highlightedTitle = this.titles.pop();
+				
                 this.imageElement.src = 'images/' + nextImage + '.jpg';
 				this.imageLink.href = 'https://marketplace.secondlife.com/p/Encounter-Box-' + nextLink;
                 this.imageElement.title = nextTitle;
@@ -61,20 +60,10 @@
                 this.images.push(nextImage);
 				this.links.push(nextLink);
                 this.titles.push(nextTitle);
-                this.fadeIn();
+				
+                setTimeout('imageObjects["' + this.imageId + '"].fadeIn()', 500);
             }
         }
-	}
-	
-	function buildGenreList(listId, titleArray) {
-		var list = document.getElementById(listId); 
-		for (var k = 0; k < titleArray.length; k++) {
-			var listItem = document.createElement("li");
-     		var content = document.createTextNode(titleArray[k]);
-			listItem.appendChild(content);
-			list.appendChild(listItem);
-		} 
-		
 	}
 			
 	function changeImages() {
@@ -345,6 +334,11 @@
 			}
         }
     }
+	
+	function delay(ms) {
+		ms += new Date().getTime();
+		while (new Date() < ms){}
+	}
 	
 	resizeElements();
 	changeImages();
