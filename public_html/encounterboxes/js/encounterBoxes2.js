@@ -1,8 +1,8 @@
     var listOfElements = document.getElementsByClassName('genre-section'), 
         greatestHeight = 0;
         
-	const FADE_INTERVAL = 50;
-	const OPACITY_CHANGE = 1 / 20;
+	var FADE_INTERVAL = 50;
+	var OPACITY_CHANGE = 1 / 20;
 	var imageObjects = null;
     var pausedImage = null;
 	
