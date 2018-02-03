@@ -82,13 +82,14 @@ ul {list-style: none; padding: 0;}
 
 #home-button {border: 2px solid #6f6f6f; -moz-border-radius: 4px; -webkit-border-radius: 4px; border-radius: 4px; background: #000; font-family: 'LimelightRegular', sans-serif;}
 
+#left-nav {margin-top: 250px}
 #main-nav a {border: 2px solid #181818; -moz-border-radius: 6px; -webkit-border-radius: 6px; border-radius: 6px;}
 
 .fineous {font-family: 'JuneBugRegular', serif; text-transform: lowercase; line-height: 1.35; letter-spacing: .75px;}
 #fineous-li a {background: tan url('../images/fineous-btn-parch-background.jpg') repeat; text-shadow: .5px 0 #453000;} 
 
-.instruction, .lecture {font-family: 'YellowMagicianRegular', serif; text-transform: uppercase; text-shadow: 1px 0 #000; color: #241206; color: #eab028;}
-#instruction-li a, #lecture-li a {background: #000;}
+.instruction {font-family: 'YellowMagicianRegular', serif; text-transform: uppercase; text-shadow: 1px 0 #000; color: #241206; color: #eab028;}
+#instruction-li a {background: #330066;}
 
 .closeup {font-family: 'YellowMagicianRegular', serif; text-transform: uppercase; text-shadow: .5px 0 #000; color: #ffff99;}
 #closeup-li a {color: #6633ff; background: #000;} 
@@ -117,11 +118,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ede8ca', e
 /* articles - sections
 ============================================ */
 article p {font-size: .9em;}
-.home-section {border: 2px solid #181818; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
+.home-section, #instruction {border: 2px solid #181818; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px;}
 #references {border: 1px solid #fff; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; max-height: 470px; overflow: auto;}
 .byline {font-size: .6em; display: block; text-align: right; margin-right: 20px;}
 #references ul {list-style-type: disc; padding-left: 15px;}
-
 
 /* footer
 ============================================ */
@@ -152,7 +152,7 @@ h3 {font-size: 1em; margin-bottom: 3px;}
 ============================================ */
 #main-nav {display: none;}
 #main-nav a, #home-button {padding: 5px; margin: 5px 3px; display: block; text-align: center;}
-#closeup-li a, #instruction-li a, #lecture-li a{font-size: 1em;}
+#closeup-li a, #instruction-li a {font-size: 1em;}
 #colella-li a {font-size: 1.1em;} 
 #kaputska-li a, #haunt-li a {font-size: 1.25em;}
 #home-button {margin-top: 15px; font-family: 'LimelightRegular', sans-serif; font-size: 1.25em;}
@@ -200,7 +200,7 @@ article img, #references img{display: none;}
 #haunt-li a {font-size: 1.1em;} 
 #colella-li a {font-size: .95em;} 
 #kaputska-li a {font-size: .85em;}
-#closeup-li a, #instruction-li a, #lecture-li a {font-size: .75em;}
+#closeup-li a, #instruction-li a {font-size: .75em;}
 #home-btn-div {width: 28%; max-width: 200px; float: left;}
 #home-button {margin: 0 3px;}
 #related {display: inline;}
@@ -214,12 +214,12 @@ section {margin: 10px auto; padding: 10px; overflow: auto; /*border: 1px solid #
 #ref-div2 {width: 97%; margin-left: 2.5%; font-size: .75em;}
 .ref-col-div h3 {min-height: 50px;}
 .ref-p-div {min-height: 175px;}
-article p {text-align: left; text-indent: 2em;}
-.home-section {max-width: 400px;}
-.home-section p {text-indent: 0;}
+article p {text-align: left;}
+.home-section, #instruction {max-width: 400px;}
+.home-section, #instruction p {text-indent: 0;}
 .hs-img {width: 48%; float: left; padding-top: 5px;}
-.ns-il-img {margin: 0 40px 15px 0; max-width: 35%; float: left;}
-.ns-ir-img {margin: 0 0 15px 30px; max-width: 35%; float: right;}
+.ns-il-img {margin: 0 12px 15px 0; max-width: 35%; float: left;}
+.ns-ir-img {margin: 0 0 15px 10px; max-width: 35%; float: right;}
 .hs-text {width: 50%; float: left;}
 .hs-text p {text-align: center;}
 .video {display: block;}
@@ -286,11 +286,11 @@ header span {font-size: .7em;}
 #fineous-li a {font-size: .8em;}
 #haunt-li a {font-size: 1.25em;} 
 #kaputska-li a, #colella-li a {font-size: 1em;}
-#closeup-li a, #instruction-li a, #lecture-li a {font-size: .9em;}
+#closeup-li a, #instruction-li a {font-size: .9em;}
 
 /* articles - sections
 ============================================ */
-.home-section {max-width: 600px;}
+.home-section, #instruction {max-width: 600px;}
 
 /* asides
 ============================================ */
@@ -317,6 +317,7 @@ div#left-nav {width: 22%;}
 /* articles - sections
 ============================================ */
 .home-section {width: 46%; float: left; margin: 5px; min-height: 265px;}
+#instruction {width: 46%; float: clear; margin: auto; min-height: 265px;}
 .ref-col-div {display: block; width: 33.3%; float: left;}
 
 /* asides
@@ -341,6 +342,8 @@ div#left-nav {width: 19%;}
 #jpp-logo {font-size: 1.75em;}
 #presents-section h1 {margin: 0; font-size: 8em;}
 #references h2, #references h3 {letter-spacing: 1.25px;}
+#references h2 {font-size: 1.5em;} 
+#references h3 {font-size: .75em;}
 
 /* articles - sections
 ============================================ */

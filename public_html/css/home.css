@@ -14,7 +14,7 @@
 ============================================ */
 .fineous {color: #453000;}
 #fineous .fineous {font-weight: 600; color: #453000;}
-#kaputska .kaputska {font-size: 1.5em; font-weight: 400;}
+#kaputska .kaputska {font-size: 1.5em; font-weight: 501;}
 #instruction .instruction, #lecture .lecture {color: #eab028; font-size: 1.5em;}
 #closeup .closeup {color: #6920e9; font-size: 1.5em;}
 #haunt .haunt {font-size: 2em;}
@@ -44,7 +44,7 @@ background: -ms-linear-gradient(top,  rgba(237,232,202,0.4) 0%,rgba(237,232,202,
 background: linear-gradient(to bottom,  rgba(237,232,202,0.4) 0%,rgba(237,232,202,0.4) 1%,rgba(237,232,202,0.4) 100%), url(../images/kaputska-med-back.jpg) center center no-repeat; /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66ede8ca', endColorstr='#66ede8ca',GradientType=0 ), url(../images/kaputska-med-back.jpg) center center no-repeat; /* IE6-8 */
 }
-#instruction, #lecture {border-color: #eab028; background-color: #000;}
+#instruction {border-color: #eab028; background: url(../images/magic_purple.jpg) top right no-repeat}
 #closeup {border-color: #6920e9; background-color: #000;}
 #haunt {background: url(../images/ghost-tile.png) repeat; background-color: #000; border-color: #fff;}
 #colella {background: url(../images/brick-med-back.jpg) top right no-repeat;}
@@ -90,7 +90,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', e
 ============================================ */
 #fineous .hs-img, #closeup .hs-img {width: 43%;}
 #kaputska .hs-img {width: 35%;}
-#kaputska img {border: 1px solid #181818; -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;}
+#kaputska img {border: 1px solid #181818;}
 }
 
 @media screen and (min-width: 800px)
@@ -152,7 +152,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', e
 
 /* articles - sections
 ============================================ */
-#ref-div {margin-top: 6px;}
+#ref-div {margin-top: 280px; margin-bottom: 30px;}
 #instruction .hs-text{width: 56%;}
 
 #fineous .hs-text {margin-top: -5px;}
@@ -160,7 +160,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bf000000', e
 #kaputska .hs-text, #lecture .hs-text {margin-top: 15px;}
 #haunt .hs-text {width: 54%; margin-top: -10px;}
 #colella .hs-text {width: 50%; margin-top: 10px;}
-#ref-div {max-height: 1065px;}
+#ref-div {max-height: 450px;}
 
 /* images - tables - forms
 ============================================ */

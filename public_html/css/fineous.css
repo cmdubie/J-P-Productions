@@ -143,5 +143,5 @@ footer a {color: #ffb;}
 .references-wide {background: none;}
 .references-tall {background-image: url(../images/fineous-vert-parch-background.jpg); background-attachment: fixed; background-position: top right;}
 .ref-col-div {min-height: 100%;}
-#ref-div {max-height: 1430px; overflow: auto;}
+#ref-div {max-height: 1107px; overflow: auto; margin-top: 280px; margin-bottom: 30px;}
 }

@@ -1,0 +1,146 @@
+@font-face {
+    font-family: 'zitzregular';
+    src: url('fonts/zitz/zitz____-webfont.woff2') format('woff2'),
+         url('fonts/zitz/zitz____-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 2.75em;
+	text-align: center;
+}
+
+#head {
+	margin-left: 17%;
+}
+
+body {
+	margin: 0 auto;
+	min-width: 1200px;
+}
+
+#dot1 {
+	position: relative;
+	top: -100px;
+	height: 50px;
+	width: 55px;
+}
+
+#dot2 {
+	position: relative;
+	top: -125px;
+	left: 30px;
+	height: 50px;
+	width: 55px;
+}
+
+#messageDiv {
+	text-align: center;
+	width: 20%;
+	display: inline-block;
+	margin-right: 15%;
+	position: relative;
+	top: -200px;
+	left: 75px;
+	border: 4px solid black;
+	border-radius: 40px;
+	padding: 20px;
+}
+
+#message {
+	font-family: 'zitzregular', sans-serif;
+	font-size: 2em;
+}
+
+.left {
+	position: relative;
+	left: -100px;
+}
+
+.right {
+	position: relative;
+	left: 100px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+#buttonWrapper {
+	margin-top: 50px;
+	text-align: center;
+}
+
+#feedback {
+	padding: 10px;
+	font-family: Impact, Charcoal, sans-serif;
+	font-size: 1.5em;
+}
+
+.bounce {
+	animation-name: bounce;
+	-webkid-animation-name: bounce;
+	animation-duration: 2.5s;
+	-webkit-animation-duration: 2.5s;
+}
+
+/* animations */
+
+@keyframes bounce {
+	0% {
+		transform: translateY(0%);
+	}
+	10% {
+		transform: translateY(-5%)
+	}
+	20% {
+		transform: translateY(0%)
+	}
+	30% {
+		transform: translateY(-5%)
+	}
+	40% {
+		transform: translateY(0%)
+	}
+	50% { 
+		transform: translateY(-5%)
+	}
+	60%{
+		transform: translateY(0%);
+	}
+	70%{
+		transform: translateY(-5%);
+	}
+	80%{
+		transform: translateY(0%);
+	}	
+	90% {
+		transform: translateY(-5%)
+	}
+	100%{
+		transform: translateY(0%);
+	}	
+}
+
+@-webkit-keyframes bounce {
+	0% {
+		-webkit-transform: translateY(0%);
+	}
+	60%{
+		-webkit-transform: translateY(-100%);
+	}
+	70%{
+		-webkit-transform: translateY(0%);
+	}
+	80%{
+		-webkit-transform: translateY(0%);
+	}	
+	90%{
+		-webkit-transform: translateY(0%);
+	}				
+	100%{
+		-webkit-transform: translateY(0%);
+	}	
+}

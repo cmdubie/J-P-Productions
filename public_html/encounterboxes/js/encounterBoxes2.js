@@ -322,8 +322,20 @@
     
     function resizeElements() {    
         for (i = 0; i < listOfElements.length; i++) {
-            listOfElements[i].getElementsByTagName('img')[0].onmouseover  = function() {pause(this)};
-            listOfElements[i].getElementsByTagName('img')[0].onmouseout = function() {resume(this)};
+			
+			var img = listOfElements[i].getElementsByTagName('img')[0];
+			
+			if (img.addEventListener) {
+				img.addEventListener('mouseover', function() { pause(this); }, false);
+				img.addEventListener('mouseout', function() { resume(this); }, false);
+			} else { // IE
+				img.attachEvent('onmouseover', function() {});
+				img.attachEvent('onmouseout', function() {});
+			}
+			
+//            listOfElements[i].getElementsByTagName('img')[0].onmouseover  = function() {pause(this)};
+//            listOfElements[i].getElementsByTagName('img')[0].onmouseout = function() {resume(this)};
+			
             if (listOfElements[i].scrollHeight > greatestHeight) {
                 greatestHeight = listOfElements[i].scrollHeight;
             }

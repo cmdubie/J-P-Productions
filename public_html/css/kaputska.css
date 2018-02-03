@@ -114,5 +114,5 @@ footer, footer a {color: #000;}
 /* images - tables - forms
 ============================================ */
 #references .ref-img-div {min-height: 50px;}
-#ref-div {max-height: 1577px;}
+#ref-div {max-height: 1577px; margin-top: 250px; margin-bottom: 30px;}
 }
